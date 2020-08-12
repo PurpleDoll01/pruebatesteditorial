@@ -1,0 +1,93 @@
+.slipButtonLeft {
+    height: 60px;
+    width: 220px;
+    background-color: #212121;
+    color: white;
+    font-size: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 0 15px 15px 0;
+    padding-right: 10px;
+    margin-bottom: 40px;
+}
+
+.slipButtonLeft:hover {
+    border: red solid 4px;
+    cursor: pointer;
+}
+
+.slipButtonLeft img {
+    margin: 0 10px;
+    height: 80%;
+    border-radius: 6px;
+}
+
+.slipButtonRight {
+    height: 60px;
+    width: 220px;
+    background-color: #212121;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border-radius: 15px 0 0 15px;
+    padding-left: 20px;
+    margin-bottom: 40px;
+}
+
+.slipButtonRight:hover {
+    border: red solid 4px;
+    cursor: pointer;
+}
+
+.slipButtonRight img {
+    margin-right: 8px;
+}
+
+@media only screen and (max-width: 830px) {
+    .mainContainer{
+        flex-direction: column;
+        position: relative;
+    }
+
+    .mainDefContainer{
+        width: 100%;
+    }
+
+    .mainContentContainer{
+        width: 100%;
+    }
+
+    .slipsRightContainer{
+        position: absolute;
+        right: 0;
+        top: -70px;
+    }
+    .slipsLeftContainer{
+        z-index: 25;
+        margin: 0;
+    }
+
+    .slipButtonLeft, .slipButtonRight{
+        height: 40px;
+        width: 200px;
+        font-size: 12px;
+        margin: 20px 0;
+    }
+    .slipButtonRight img {
+        height: 20px;
+    }
+    .slipButtonLeft img {
+        height: 20px;
+        margin: 0;
+        padding: 2px 2px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .slipButtonLeft, .slipButtonRight{
+        width: 160px;
+    }
+}

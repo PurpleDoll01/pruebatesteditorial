@@ -1,0 +1,128 @@
+.mainContentContainer {
+    border: 5px solid rgba(66, 62, 57, 0.842);;
+    border-radius: 5px;
+    display: flex;
+    width: 60%;
+    margin: 0 20px;
+}
+
+.selectedHeader{
+    margin-top: 20px;
+}
+
+.menuContainer {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 200px 0 0 -5px;
+    z-index: 6;
+}
+
+.menuButton{
+    background-color: rgba(66, 62, 57, 0.589);
+    text-align: right;
+    font-size: 14px;
+    border-radius: 0 5px 5px 0;
+    color: white;
+    width: 90%;
+    height: 3em;
+    margin-bottom: 20px;
+    padding: 2px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menuButton:hover {
+    border: rgb(175, 50, 50) solid 2px;
+    cursor: pointer;
+}
+
+.menuButton p{
+    padding: 0 4px;
+    margin: 0;
+    align-items: center;
+}
+
+.contentSelected {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-left: -26%;
+}
+
+.mainContent img{
+    width: 80%;
+    margin-left: 50px;
+}
+
+.mainContent {
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 30px 5px 20%;
+}
+
+@media only screen and (min-width: 1167px) {
+    .menuContainer{
+        margin-top: 180px;
+    }
+}
+
+@media only screen and (max-width: 910px) {
+    .menuContainer{
+        margin-top: 230px;
+    }
+
+    .menuButton{
+        margin-bottom: 10px;
+        width: 90px;
+    }
+
+}
+
+@media only screen and (max-width: 830px) {
+    .mainContentContainer {
+        flex-direction: column;
+        width: 95%;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .mainContent{
+        padding: 0;
+    }
+
+    .mainContent img {
+        margin: 0;
+
+    }
+
+    .menuContainer{
+        margin-top: 14px;
+        flex-direction: row;
+        justify-content: center;
+        width: 100%;
+        flex-wrap: wrap;
+
+    }
+    .menuButton{
+        height: 40px;
+        width: 90px;
+        margin: 2px 4px;
+        font-size: 12px;
+        border-radius: 4px;
+    }
+
+    .contentSelected{
+        width: 100%;
+        margin: 0;
+    }
+
+    p{
+        padding: 0;
+    }
+  }

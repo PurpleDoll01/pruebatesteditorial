@@ -1,0 +1,8 @@
+.mainDefContainer {
+    border: 15px solid #d49d6742;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}

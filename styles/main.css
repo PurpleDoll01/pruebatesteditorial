@@ -1,0 +1,14 @@
+.mainContainer {
+    display: flex;
+    width: 100%;
+    margin: 15px 0;
+    justify-content: space-between;
+}
+
+.slipsLeftContainer {
+    margin-top: 100px;
+}
+
+.slipsRightContainer {
+    margin-top: 100px;
+}

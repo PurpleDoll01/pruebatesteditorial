@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Ivy Journal';
+    src: local('Ivy Journal Semi Bold Italic'), local('Ivy-Journal-Semi-Bold-Italic'),
+        url('IvyJournal-SemiBoldItalic.woff2') format('woff2'),
+        url('IvyJournal-SemiBoldItalic.woff') format('woff'),
+        url('IvyJournal-SemiBoldItalic.ttf') format('truetype');
+    font-weight: 600;
+    font-style: italic;
+  }

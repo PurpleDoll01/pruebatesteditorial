@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Eczar&display=swap');
+
+.body1 {
+    color: white;
+    font-size: 20px;
+    font-family: 'Ivy Journal';
+    font-weight: 600;
+    font-style: italic;
+    text-align: center;
+}
+
+.header2 {
+    font-family: 'Ivy Journal';
+    font-size: 40px;
+    color: black;
+    text-align: center;
+    margin: 25px 0;
+}
+
+.header3 {
+    font-family: 'Ivy Journal';
+    font-size: 20px;
+    color: rgb(68, 80, 80);
+    text-align: center;
+    margin: 0;
+}
+
+.body2 {
+    font-family: 'Eczar', serif;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    color: black;
+    align-content: center;
+    text-align: justify;
+    padding: 5px 15%;
+}
+
+.body3 {
+    color: saddlebrown;
+    font-size: 20px;
+}
+
+.body4 {
+    color: white;
+    font-size: 12px;
+    margin: 5px 10px;
+}
+
+.body5 {
+    font-family: 'Eczar', serif;
+    line-height: 20px;
+    font-style: normal;
+    font-weight: 200;
+    font-size: 14px;
+    color: black;
+    align-content: right;
+    text-align: justify;
+    padding: 5px 0 0 60px;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+@media only screen and (max-width: 830px) {
+    .header2 {
+        line-height: 1em;
+        font-size: 20px;
+    }
+    .header3 {
+        line-height: 1em;
+        font-size: 14px;
+    }
+    .body1 {
+        margin: 10px 15px;
+        font-size: 14px;
+    }
+    .body2 {
+        padding: 0 6px;
+    }
+    .body5 {
+        padding: 20px;
+    }
+}
